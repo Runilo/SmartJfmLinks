@@ -1,0 +1,28 @@
+#smartButton {
+    position: relative;
+    padding-left: 8px;
+    color: gray;
+    transition: all .5s ease;
+}
+
+#smartButton[data-status="smart"] span{
+     color: #73B477;
+}
+
+#smartButton[data-status="stupid"] img{
+    opacity: .6;
+}
+
+#smartButton[data-status="stupid"]:hover img {
+    opacity: .8;
+}
+
+#smartButton span {
+ padding-left: 24px;
+}
+
+#smartButton span img {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
